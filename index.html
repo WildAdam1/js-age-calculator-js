@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- we will go restaurant we will but we dont know how much we will and how many students will arrive, and we also want to know how much tip we need to give  31 1500  good tip 30, normal 15% small 10 % or not good 5% -->
+
+    <form class="form">
+
+        <label for="people">how many Guests</label>
+        <input  name="people" type="number"id="people"/><br/>
+
+        <label for="amount">Amount to pay </label>
+        <input  name="amount" type="number" class="amount" /><br/>
+
+        <label for="tip">tip to give</label>
+        <select name="tip" id="tip">
+            <option value="50">Good Tip 50%</option>
+            <option value="30">Good Tip 30%</option>
+            <option value="15">Fine 15%</option>
+            <option value="10">ok 10%</option>
+            <option value="5">:( 5%</option>
+        </select><br/>
+
+        <button id="submit">Calculate</button>
+
+        <h1>Total to pay each <span class="total"></span></h1>
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>
