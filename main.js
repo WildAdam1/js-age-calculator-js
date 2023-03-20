@@ -16,6 +16,7 @@ submit.addEventListener('click',function(event){
     const tipPercent = parseInt(tip.value) / 100 ; //0.3
     const tipAmount = billAmount * tipPercent;
     const totalToPay = billAmount + tipAmount;
+    //great job!!
 
     const numberPeople = parseInt(people.value)
 
